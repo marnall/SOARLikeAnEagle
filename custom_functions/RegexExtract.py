@@ -1,12 +1,10 @@
-def RegexExtract(input=None, pattern=None, flags=None, **kwargs):
+def RegexExtract(input=None, **kwargs):
     """
     Args:
         input
-        pattern
-        flags
     
     Returns a JSON-serializable object that implements the configured data paths:
-        group1
+        
     """
     ############################ Custom Code Goes Below This Line #################################
     import json
