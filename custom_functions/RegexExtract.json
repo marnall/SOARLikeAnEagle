@@ -1,5 +1,5 @@
 {
-    "create_time": "2024-02-21T20:41:44.992303+00:00",
+    "create_time": "2024-02-21T21:20:29.606149+00:00",
     "custom_function_id": "856af9b5903db45b6d2fee4564520fcd8ae7f90e",
     "description": "",
     "draft_mode": false,
@@ -15,7 +15,7 @@
             "contains_type": [],
             "description": "The regex pattern to use to extract the desired value(s) from the input_string.",
             "input_type": "item",
-            "name": "input_pattern",
+            "name": "regex",
             "placeholder": "Regex goes here"
         }
     ],

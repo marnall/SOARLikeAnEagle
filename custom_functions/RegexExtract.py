@@ -1,8 +1,8 @@
-def RegexExtract(input_string=None, input_pattern=None, **kwargs):
+def RegexExtract(input_string=None, regex=None, **kwargs):
     """
     Args:
         input_string: The input string from which to extract the desired values.
-        input_pattern: The regex pattern to use to extract the desired value(s) from the input_string.
+        regex: The regex pattern to use to extract the desired value(s) from the input_string.
     
     Returns a JSON-serializable object that implements the configured data paths:
         match_list: A list containing all of the regex-extracted values.
@@ -14,8 +14,11 @@ def RegexExtract(input_string=None, input_pattern=None, **kwargs):
         
     outputs = []
     match_list = []
-    if input_string and input_pattern:
-        matches = re.findall(input_pattern, input_string)
+    
+    regex = regex.replace('\\\\','\\')
+    
+    if input_string and regex:
+        matches = re.findall(regex, input_string)
         for group in set(matches):
             match_list.append(group)
     if match_list:
