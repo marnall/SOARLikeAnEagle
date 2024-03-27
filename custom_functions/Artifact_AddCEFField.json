@@ -1,0 +1,33 @@
+{
+    "create_time": "2024-03-27T20:33:47.049581+00:00",
+    "custom_function_id": "242e1757095c6ed6a15c718979d303d275e12535",
+    "description": "Adds a CEF field and value to an artifact.",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "The artifact to which to apply the CEF field and value.",
+            "input_type": "item",
+            "name": "artifact_id",
+            "placeholder": "(REQUIRED)"
+        },
+        {
+            "contains_type": [],
+            "description": "The name of the CEF field to add.",
+            "input_type": "item",
+            "name": "cef_field_name",
+            "placeholder": "(REQUIRED)"
+        },
+        {
+            "contains_type": [],
+            "description": "The value to store in the CEF field. If left empty, this will make a CEF field containing None",
+            "input_type": "item",
+            "name": "cef_field_value",
+            "placeholder": "(RECOMMENDED)"
+        }
+    ],
+    "outputs": [],
+    "outputs_type": "item",
+    "platform_version": "6.2.0.355",
+    "python_version": "3"
+}
