@@ -1,0 +1,25 @@
+{
+    "create_time": "2024-03-27T21:15:25.659806+00:00",
+    "custom_function_id": "40d3d052afbd18a1bab1cd0c9491a1065f8014a1",
+    "description": "This function outputs the current unix time. Can also take an optional integer offset.",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "An offset to add to the current timestamp. Should be an integer. Can be negative. Defaults to 0.",
+            "input_type": "item",
+            "name": "integer_offset",
+            "placeholder": "(OPTIONAL)"
+        }
+    ],
+    "outputs": [
+        {
+            "contains_type": [],
+            "data_path": "integer_unixtime",
+            "description": "The current unixtime. E.g. 1711573836"
+        }
+    ],
+    "outputs_type": "item",
+    "platform_version": "6.2.0.355",
+    "python_version": "3"
+}
