@@ -1,0 +1,39 @@
+{
+    "create_time": "2024-03-27T21:07:26.937431+00:00",
+    "custom_function_id": "ec9c86e690d61b61fd698488a0f738f47a7e448b",
+    "description": "This function extracts a substring from a string using a regex expression.",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "The input string from which to extract the desired values.",
+            "input_type": "item",
+            "name": "string_in",
+            "placeholder": "(REQUIRED)"
+        },
+        {
+            "contains_type": [],
+            "description": "The regex pattern to use to extract the desired value(s) from the input_string. Must have a capture group!",
+            "input_type": "item",
+            "name": "regex_pattern",
+            "placeholder": "(REQUIRED)"
+        },
+        {
+            "contains_type": [],
+            "description": "Flags as a parameter to the python re function. If using multiple flags, then separate them with a comma or | character.\n\nExamples:\n\nre.ASCII\nre.IGNORECASE\nre.MULTILINE\nre.DOTALL\nre.VERBOSE\nre.LOCALE",
+            "input_type": "item",
+            "name": "regex_flags",
+            "placeholder": "(optional)"
+        }
+    ],
+    "outputs": [
+        {
+            "contains_type": [],
+            "data_path": "*.match",
+            "description": "The regex extracted section of the input string."
+        }
+    ],
+    "outputs_type": "item",
+    "platform_version": "6.2.0.355",
+    "python_version": "3"
+}
