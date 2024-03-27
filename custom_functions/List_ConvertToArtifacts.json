@@ -1,0 +1,42 @@
+{
+    "create_time": "2024-03-27T21:02:45.618268+00:00",
+    "custom_function_id": "8c8a1e35de7022376a59b0f32e8faf84dc878bd4",
+    "description": "For every entry in a custom list, make an artifact in a container containing the columns as cef fields.",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [
+                ""
+            ],
+            "description": "The name of the custom list to make artifacts.",
+            "input_type": "item",
+            "name": "custom_list_name",
+            "placeholder": "(REQUIRED)"
+        },
+        {
+            "contains_type": [],
+            "description": "The container in which to put the new artifacts.",
+            "input_type": "item",
+            "name": "container_id",
+            "placeholder": "(REQUIRED)"
+        },
+        {
+            "contains_type": [],
+            "description": "Supply a list of values here to override the headers. If set to False, then it will use generic col+N headers. E.g. [col1, col2, col3, ...]",
+            "input_type": "list",
+            "name": "headers",
+            "placeholder": "(OPTIONAL)"
+        },
+        {
+            "contains_type": [],
+            "description": "If desired, the new artifacts can have a custom artifact name. Defaults to \"Artifact from <custom_list_name>\"",
+            "input_type": "item",
+            "name": "artifact_name",
+            "placeholder": "(OPTIONAL)"
+        }
+    ],
+    "outputs": [],
+    "outputs_type": "item",
+    "platform_version": "6.2.0.355",
+    "python_version": "3"
+}
