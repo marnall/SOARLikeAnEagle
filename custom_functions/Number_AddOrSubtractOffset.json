@@ -1,0 +1,32 @@
+{
+    "create_time": "2024-03-27T20:57:41.421712+00:00",
+    "custom_function_id": "4a62ff8c8ea86f87f8d2809862fe17929d9e44b4",
+    "description": "Given a numerical input, this function will add a positive or negative offset to it. This can be useful when e.g. dealing with 0- and 1-indexed arrays",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "The number to which to add an offset.",
+            "input_type": "item",
+            "name": "number_in",
+            "placeholder": "(REQUIRED)"
+        },
+        {
+            "contains_type": [],
+            "description": "The number to add to the input. Can be negative",
+            "input_type": "item",
+            "name": "number_offset",
+            "placeholder": "(OPTIONAL)"
+        }
+    ],
+    "outputs": [
+        {
+            "contains_type": [],
+            "data_path": "number_out",
+            "description": ""
+        }
+    ],
+    "outputs_type": "item",
+    "platform_version": "6.2.0.355",
+    "python_version": "3"
+}
