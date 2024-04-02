@@ -1,0 +1,32 @@
+{
+    "create_time": "2024-04-02T18:49:44.328931+00:00",
+    "custom_function_id": "a162513e8b39ed9e306d9cf79c1eab4db8bcaa9b",
+    "description": "Given an input string, this function will make the string uppercase, lowercase, or capitalized.",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "String of which to change the case.",
+            "input_type": "item",
+            "name": "string_in",
+            "placeholder": "(REQUIRED)"
+        },
+        {
+            "contains_type": [],
+            "description": "The operation: (input: exaMple)\nupper -> EXAMPLE\nlower -> example\ncapitalise -> Example\nswapcase -> EXAmPLE",
+            "input_type": "item",
+            "name": "string_operation",
+            "placeholder": "(REQUIRED)"
+        }
+    ],
+    "outputs": [
+        {
+            "contains_type": [],
+            "data_path": "string_out",
+            "description": "The final string in the desired case."
+        }
+    ],
+    "outputs_type": "item",
+    "platform_version": "6.2.0.355",
+    "python_version": "3"
+}
