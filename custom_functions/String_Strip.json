@@ -1,0 +1,39 @@
+{
+    "create_time": "2024-04-03T20:41:29.724820+00:00",
+    "custom_function_id": "c3e860a750f0176099ddfe7d7c058ff21aba2a07",
+    "description": "Given an input string, this function can be used to apply the strip, rstrip, or lstrip functions on it, thereby removing undesired whitespace and/or other characters.\nE.g.\n\"     this   is   a   string    \" -strip-> \"this   is   a   string\" \n\"     this   is   a   string    \" -rstrip-> \"     this   is   a   string\" \n\"aaaaahelloaaaa\" -> strip(a) -> \"hello\"",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "The string on which to apply the strip operation.",
+            "input_type": "item",
+            "name": "string_in",
+            "placeholder": "(REQUIRED)"
+        },
+        {
+            "contains_type": [],
+            "description": "If additional characters are desired to be stripped from the input string, this function can be used.",
+            "input_type": "item",
+            "name": "string_chars_to_strip",
+            "placeholder": "(OPTIONAL)"
+        },
+        {
+            "contains_type": [],
+            "description": "If desired, a specific strip function can be specified:\nlstrip -> strip only from the left\nrstrip -> strip only from the right\n(defaults to regular strip)",
+            "input_type": "item",
+            "name": "string_strip_function",
+            "placeholder": "(OPTIONAL)"
+        }
+    ],
+    "outputs": [
+        {
+            "contains_type": [],
+            "data_path": "string_out",
+            "description": "The string after applying the strip function."
+        }
+    ],
+    "outputs_type": "item",
+    "platform_version": "6.2.0.355",
+    "python_version": "3"
+}
