@@ -1,0 +1,19 @@
+{
+    "create_time": "2024-04-15T20:07:43.599982+00:00",
+    "custom_function_id": "3ef71c8197841e2a3fd699ad472f921830b0eff1",
+    "description": "Given an input artifact ID, this function will delete the artifact.\nWARNING: This action is permanent. Be sure that the input artifact IDs are correct!",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "The ID of the artifact to delete. ",
+            "input_type": "item",
+            "name": "id_artifact",
+            "placeholder": "(REQUIRED)"
+        }
+    ],
+    "outputs": [],
+    "outputs_type": "item",
+    "platform_version": "6.2.0.355",
+    "python_version": "3"
+}
