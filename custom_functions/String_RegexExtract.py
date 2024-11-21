@@ -27,7 +27,6 @@ def String_RegexExtract(string_in=None, regex_pattern=None, regex_flags=None, **
     outputs = []
     match_list = []
     
-    
     # Write your custom code here...
     funcname = "String_RegexExtract"
     phantom.debug("--- STARTING {} ---".format(funcname))
@@ -77,9 +76,8 @@ def String_RegexExtract(string_in=None, regex_pattern=None, regex_flags=None, **
     for mat in matches:
         outputs.append({'match': mat})       
     
-    #phantom.debug("RegexExtract extracted: {}".format(outputs))
+    phantom.debug("{0} extracted: {1}".format(funcname,outputs))
     phantom.debug("--- FINISHED {} ---".format(funcname))
-    
     
     # Return a JSON-serializable object
     assert json.dumps(outputs)  # Will raise an exception if the :outputs: object is not JSON-serializable
