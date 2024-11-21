@@ -22,12 +22,12 @@ def String_RegexExtract(string_in=None, regex_pattern=None, regex_flags=None, **
     ############################ Custom Code Goes Below This Line #################################
     import json
     import phantom.rules as phantom
-    import re
         
     outputs = []
-    match_list = []
     
     # Write your custom code here...
+    import re
+    match_list = []
     funcname = "String_RegexExtract"
     phantom.debug("--- STARTING {} ---".format(funcname))
     
