@@ -1,0 +1,46 @@
+{
+    "create_time": "2024-11-21T18:40:16.956951+00:00",
+    "custom_function_id": "9f58e335e9a8c8972839c447c874d5f68a2a92bf",
+    "description": "This function replaces a substring from a string, with another string, using a regex expression.",
+    "draft_mode": false,
+    "inputs": [
+        {
+            "contains_type": [],
+            "description": "The input string from which to extract the desired values.",
+            "input_type": "item",
+            "name": "string_in",
+            "placeholder": "(REQUIRED)"
+        },
+        {
+            "contains_type": [],
+            "description": "The regex pattern to use to extract the desired value(s) from the input_string. Must have a capture group!",
+            "input_type": "item",
+            "name": "regex_pattern",
+            "placeholder": "(REQUIRED)"
+        },
+        {
+            "contains_type": [],
+            "description": "The string to insert in place of the matched group of the regex pattern. Can be left blank to simply delete the matched text.",
+            "input_type": "item",
+            "name": "string_replace_with",
+            "placeholder": "(optional)"
+        },
+        {
+            "contains_type": [],
+            "description": "Flags as a parameter to the python re function. If using multiple flags, then separate them with a comma or | character.\n\nExamples:\n\nre.ASCII\nre.IGNORECASE\nre.MULTILINE\nre.DOTALL\nre.VERBOSE\nre.LOCALE",
+            "input_type": "item",
+            "name": "regex_flags",
+            "placeholder": "(optional)"
+        }
+    ],
+    "outputs": [
+        {
+            "contains_type": [],
+            "data_path": "string_out",
+            "description": "The output string, after the regex has made the replacement."
+        }
+    ],
+    "outputs_type": "item",
+    "platform_version": "6.2.2.134",
+    "python_version": "3"
+}
