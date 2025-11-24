@@ -1,6 +1,6 @@
 {
-    "create_time": "2024-11-21T18:40:16.956951+00:00",
-    "custom_function_id": "9f58e335e9a8c8972839c447c874d5f68a2a92bf",
+    "create_time": "2025-11-24T20:50:53.950792+00:00",
+    "custom_function_id": "5c14e3d0f69144fa5f6ab597fe2225a6bf2968fa",
     "description": "This function replaces a substring from a string, with another string, using a regex expression.",
     "draft_mode": false,
     "inputs": [
@@ -41,6 +41,6 @@
         }
     ],
     "outputs_type": "item",
-    "platform_version": "6.2.2.134",
-    "python_version": "3"
+    "platform_version": "7.0.0.198",
+    "python_version": "3.13"
 }
