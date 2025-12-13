@@ -1,6 +1,6 @@
 {
-    "create_time": "2024-11-21T18:29:50.413150+00:00",
-    "custom_function_id": "ec9c86e690d61b61fd698488a0f738f47a7e448b",
+    "create_time": "2025-12-13T12:50:32.986726+00:00",
+    "custom_function_id": "027a435dd8d363cb07f09ad98d5cae7ef23ae899",
     "description": "This function extracts a substring from a string using a regex expression.",
     "draft_mode": false,
     "inputs": [
@@ -34,6 +34,6 @@
         }
     ],
     "outputs_type": "item",
-    "platform_version": "6.2.2.134",
-    "python_version": "3"
+    "platform_version": "7.1.0.225",
+    "python_version": "3.13"
 }
