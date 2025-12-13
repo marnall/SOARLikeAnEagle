@@ -1,6 +1,6 @@
 {
-    "create_time": "2024-03-27T21:15:25.659806+00:00",
-    "custom_function_id": "40d3d052afbd18a1bab1cd0c9491a1065f8014a1",
+    "create_time": "2025-12-13T12:54:52.536222+00:00",
+    "custom_function_id": "fbed9b533ff92199658188887aec7e8cca01f6a1",
     "description": "This function outputs the current unix time. Can also take an optional integer offset.",
     "draft_mode": false,
     "inputs": [
@@ -20,6 +20,6 @@
         }
     ],
     "outputs_type": "item",
-    "platform_version": "6.2.0.355",
-    "python_version": "3"
+    "platform_version": "7.1.0.225",
+    "python_version": "3.13"
 }
