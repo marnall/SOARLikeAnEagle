@@ -1,6 +1,6 @@
 {
-    "create_time": "2024-04-03T20:41:29.724820+00:00",
-    "custom_function_id": "c3e860a750f0176099ddfe7d7c058ff21aba2a07",
+    "create_time": "2025-12-13T12:55:00.175426+00:00",
+    "custom_function_id": "bd53ef3261689929dcf7e429644308448a693c17",
     "description": "Given an input string, this function can be used to apply the strip, rstrip, or lstrip functions on it, thereby removing undesired whitespace and/or other characters.\nE.g.\n\"     this   is   a   string    \" -strip-> \"this   is   a   string\" \n\"     this   is   a   string    \" -rstrip-> \"     this   is   a   string\" \n\"aaaaahelloaaaa\" -> strip(a) -> \"hello\"",
     "draft_mode": false,
     "inputs": [
@@ -34,6 +34,6 @@
         }
     ],
     "outputs_type": "item",
-    "platform_version": "6.2.0.355",
-    "python_version": "3"
+    "platform_version": "7.1.0.225",
+    "python_version": "3.13"
 }
