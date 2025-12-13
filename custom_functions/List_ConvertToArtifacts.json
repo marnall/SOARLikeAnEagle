@@ -1,6 +1,6 @@
 {
-    "create_time": "2024-03-27T21:02:45.618268+00:00",
-    "custom_function_id": "8c8a1e35de7022376a59b0f32e8faf84dc878bd4",
+    "create_time": "2025-12-13T12:54:49.317407+00:00",
+    "custom_function_id": "6e7cf660dabe890ad0261b650938844791c7ed8f",
     "description": "For every entry in a custom list, make an artifact in a container containing the columns as cef fields.",
     "draft_mode": false,
     "inputs": [
@@ -37,6 +37,6 @@
     ],
     "outputs": [],
     "outputs_type": "item",
-    "platform_version": "6.2.0.355",
-    "python_version": "3"
+    "platform_version": "7.1.0.225",
+    "python_version": "3.13"
 }
