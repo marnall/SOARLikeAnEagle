@@ -1,5 +1,5 @@
 {
-    "create_time": "2025-12-13T12:50:32.986726+00:00",
+    "create_time": "2026-02-15T04:45:43.820664+00:00",
     "custom_function_id": "027a435dd8d363cb07f09ad98d5cae7ef23ae899",
     "description": "This function extracts a substring from a string using a regex expression.",
     "draft_mode": false,
