@@ -1,5 +1,5 @@
 {
-    "create_time": "2025-12-13T12:55:03.678436+00:00",
+    "create_time": "2026-02-15T04:45:25.685324+00:00",
     "custom_function_id": "45a20e8e65b74c7036edf5d0ab015d0e4ce2fe96",
     "description": "Given an input artifact ID, this function will delete the artifact.\nWARNING: This action is permanent. Be sure that the input artifact IDs are correct!",
     "draft_mode": false,
