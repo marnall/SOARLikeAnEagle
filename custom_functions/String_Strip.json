@@ -1,5 +1,5 @@
 {
-    "create_time": "2025-12-13T12:55:00.175426+00:00",
+    "create_time": "2026-02-15T04:45:47.374137+00:00",
     "custom_function_id": "bd53ef3261689929dcf7e429644308448a693c17",
     "description": "Given an input string, this function can be used to apply the strip, rstrip, or lstrip functions on it, thereby removing undesired whitespace and/or other characters.\nE.g.\n\"     this   is   a   string    \" -strip-> \"this   is   a   string\" \n\"     this   is   a   string    \" -rstrip-> \"     this   is   a   string\" \n\"aaaaahelloaaaa\" -> strip(a) -> \"hello\"",
     "draft_mode": false,
