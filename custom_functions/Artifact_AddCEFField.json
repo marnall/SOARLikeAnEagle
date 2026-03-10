@@ -1,5 +1,5 @@
 {
-    "create_time": "2026-02-15T04:45:21.954825+00:00",
+    "create_time": "2026-03-10T05:52:48.738371+00:00",
     "custom_function_id": "5adbee4d6121ba6d4364eea8941b27a81c40d14b",
     "description": "Adds a CEF field and value to an artifact.",
     "draft_mode": false,
@@ -28,6 +28,6 @@
     ],
     "outputs": [],
     "outputs_type": "item",
-    "platform_version": "7.1.0.225",
+    "platform_version": "8.4.0.166",
     "python_version": "3.13"
 }
