@@ -1,5 +1,5 @@
 {
-    "create_time": "2026-02-15T04:45:36.378797+00:00",
+    "create_time": "2026-03-10T05:53:01.018148+00:00",
     "custom_function_id": "f4652c1167bf102b75288126e3e3112d86f8add9",
     "description": "Given a numerical input, this function will add a positive or negative offset to it. This can be useful when e.g. dealing with 0- and 1-indexed arrays",
     "draft_mode": false,
@@ -27,6 +27,6 @@
         }
     ],
     "outputs_type": "item",
-    "platform_version": "7.1.0.225",
+    "platform_version": "8.4.0.166",
     "python_version": "3.13"
 }
